@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Design Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://res.cloudinary.com/derbeprgq/image/upload/v1732695258/mrzc0d8ggqerh7tmi6h5.png" class="logo-travel" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#wcuSection">
+                        Why Choose Us?
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#exploreMenuSection" id="navItem2">Explore Menu</a>
+                    <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">Delivery & Payment</a>
+                    <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <h1 class="banner-heading mb-3">WellCome to The Brand Chimp</h1>
+            <p class="banner-caption mb-4">I’m a passionate graphic designer dedicated to turning ideas into visually striking stories. With a sharp eye for detail and a love for creative problem-solving, I specialize in designing posters, branding materials, and digital illustrations that leave a lasting impression.</p>
+            <button class="custom-button">View More</button>
+            <button class="custom-outline-button">Order Now</button>
+        </div>
+    </div>
+
+
+    <div class="wcu-section pt-5 pb-5" id="wcuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="wcu-section-heading">Why Choose Us?</h1>
+                    <p class="wcu-section-description">
+                        We bring fresh, innovative ideas to every project. Our designs aren’t just visually appealing—they tell stories, evoke emotions, and create lasting impressions
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="data:image/png;base64,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" class="wcu-card-image" />
+                        <h1 class="wcu-card-title mt-3">Passion for Design</h1>
+                        <p class="wcu-card-description">
+                            Design isn’t just our job—it’s our passion. We stay ahead of trends and are constantly inspired to create something extraordinary.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="data:image/png;base64,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" class="wcu-card-image" />
+                        <h1 class="wcu-card-title mt-3">Client-Centered Approach</h1>
+                        <p class="wcu-card-description">
+                            Your vision is our priority. We work closely with you to understand your goals, ensuring each design aligns with your brand and message.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://media.istockphoto.com/id/956955682/vector/stopwatch-in-motion-line-icon.jpg?s=612x612&w=0&k=20&c=ouraifW3pOIPHEMtLnzGReBCjkmzoY6ZHtwGmBDvj8E=" class="wcu-card-image" />
+                        <h1 class="wcu-card-title mt-3">Timely Delivery</h1>
+                        <p class="wcu-card-description">
+                            <span class="offers">Deadlines matter.</span>
+                            You can rely on us to deliver high-quality work on time, every time, without compromising on quality.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="logofolio d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <h1 class="banner-heading text-color mb-3"> Graphic Design &Logofolio</h1>
+            <p class="banner-caption  text-color mb-4">LogoDesign / Sketch to vector / monogram / Wordmark / <br/> Lettermark / etc...  </p>
+            <button class="custom-button">View More</button>
+        </div>
+    </div>
+
+
+
+
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-section-heading">Explore Menu</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://images.pexels.com/photos/3678799/pexels-photo-3678799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title"></h1>
+                        <a href="" class="menu-item-link">
+                            View
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://images.pexels.com/photos/5192057/pexels-photo-5192057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title"></h1>
+                        <a href="" class="menu-item-link">
+                            View
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title"></h1>
+                        <a href="" class="menu-item-link">
+                            View
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://images.pexels.com/photos/3567695/pexels-photo-3567695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title"></h1>
+                        <a href="" class="menu-item-link">
+                            View
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://images.pexels.com/photos/2212886/pexels-photo-2212886.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title"></h1>
+                        <a href="" class="menu-item-link">
+                            View
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://images.pexels.com/photos/6593337/pexels-photo-6593337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title"></h1>
+                        <a href="" class="menu-item-link">
+                            View
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://images.pexels.com/photos/8483659/pexels-photo-8483659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title"></h1>
+                        <a href="" class="menu-item-link">
+                            View
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://images.pexels.com/photos/8167033/pexels-photo-8167033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title"></h1>
+                        <a href="" class="menu-item-link">
+                            View
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <img src="https://images.pexels.com/photos/28887851/pexels-photo-28887851/free-photo-of-abstract-geometric-3d-cubes-in-dynamic-composition.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="section-img" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7">
+                    <h1 class="section-heading">
+                        Bringing Ideas to Life Through Creative Design
+                    </h1>
+                    <p class="section-description">
+                        Graphic design is the art of visual communication, where creativity meets strategy to craft compelling designs that inform, inspire, and captivate audiences. As a graphic designer, I bring ideas to life through a blend of color, typography, and imagery, creating designs that not only look beautiful but also convey powerful messages.
+                    </p>
+                    <button class="custom-button">Watch Video</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="delivery-and-payment-section pt-5 pb-5" id="deliveryPaymentSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 order-1 order-md-2">
+                    <div class="text-center">
+                        <img src="https://images.pexels.com/photos/7621136/pexels-photo-7621136.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="delivery-and-payment-section-img" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 order-2 order-md-1">
+                    <h1 class="delivery-and-payment-section-heading">
+                        Delivery and Payment
+                    </h1>
+                    <p class="delivery-and-payment-section-description">
+                        Our payment structure is simple and flexible, with 50% paid upfront and the remaining 50% upon 
+                        project completion. We accept various payment methods, including online transfer, PayPal, and digital wallets. 
+                        Our goal is to provide you with high-quality designs,
+                         clear communication, and an effortless experience from start to finish.
+                    </p>
+                    <button class="custom-button">Order Now</button>
+                    <div class="mt-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" class="payment-card-img" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png" class="payment-card-img" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png" class="payment-card-img" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png" class="payment-card-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="follow-us-section-heading">Follow Us</h1>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="follow-us-icon-container">
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="bi bi-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="https://res.cloudinary.com/derbeprgq/image/upload/v1732695258/mrzc0d8ggqerh7tmi6h5.png" class="logo-travel" />
+                    <h1 class="footer-section-mail-id">mangilipellysai.11@gmail.com</h1>
+                    <p class="footer-section-address">
+                        3-6-140/A, 2nd floor, THE BRAND CHIMP, Himayat Nagar Rd, above Bata Showroom, 
+                        AP State Housing Board, Himayatnagar, Hyderabad, Telangana 500029
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
